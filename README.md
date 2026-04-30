@@ -27,8 +27,8 @@ Profiler → Cleaner → Feature Engineer → Modeler → Critic
 
 | Agent | Responsibility |
 |---|---|
-| **Profiler** | Analyzes the dataset — detects target column, problem type, class imbalance, null patterns, and recommended models |
-| **Cleaner** | Generates and executes cleaning code — handles nulls, outliers, encoding, and type fixes |
+| **Profiler** | Analyzes the dataset - detects target column, problem type, class imbalance, null patterns, and recommended models |
+| **Cleaner** | Generates and executes cleaning code - handles nulls, outliers, encoding, and type fixes |
 | **Feature Engineer** | Creates new features, applies transformations, and runs unit tests on the output |
 | **Modeler** | Scouts multiple algorithms on a 10% sample, then trains and evaluates the top candidates |
 | **Critic** | Scores the result with a rubric, identifies weak points, and either approves or routes back with specific fixes |
@@ -87,11 +87,11 @@ Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ## Usage
 
-1. **Upload or select a dataset** — drop a CSV into `datasets/` or use the sidebar file uploader.
-2. **Describe your goal** — e.g. `"Predict customer churn with high F1-score"` or `"Predict house price, minimise RMSE"`.
-3. **Click Run Pipeline** — the Profiler runs automatically and the pipeline pauses before Cleaning.
-4. **Review and approve** — at each checkpoint, read what the agent plans to do, optionally add feedback, then approve to continue.
-5. **Inspect results** — explore tabs for the data profile, annotated cleaning/feature steps, model metrics, confusion matrix, feature importance, critique scorecard, and a chat interface.
+1. **Upload or select a dataset** - drop a CSV into `datasets/` or use the sidebar file uploader.
+2. **Describe your goal** - e.g. `"Predict customer churn with high F1-score"` or `"Predict house price, minimise RMSE"`.
+3. **Click Run Pipeline** - the Profiler runs automatically and the pipeline pauses before Cleaning.
+4. **Review and approve** - at each checkpoint, read what the agent plans to do, optionally add feedback, then approve to continue.
+5. **Inspect results** - explore tabs for the data profile, annotated cleaning/feature steps, model metrics, confusion matrix, feature importance, critique scorecard, and a chat interface.
 
 ---
 
