@@ -1,17 +1,17 @@
 # Multi-Agent ML Assistant
 
-An autonomous, human-in-the-loop machine learning pipeline built with LangGraph and Streamlit. Upload a CSV, describe your goal, and a team of specialized AI agents profiles, cleans, engineers features, trains models, and critiques the results — pausing at each stage for your review and approval.
+An autonomous, human-in-the-loop machine learning pipeline built with LangGraph and Streamlit. Upload a CSV, describe your goal, and a team of specialized AI agents profiles, cleans, engineers features, trains models, and critiques the results -pausing at each stage for your review and approval.
 
 ---
 
 ## Key Features
 
-- **Multi-agent pipeline** — Profiler, Cleaner, Feature Engineer, Modeler, and Critic agents work in sequence, each with a focused responsibility.
-- **Human-in-the-loop checkpoints** — The pipeline pauses before each major step so you can review agent decisions, read the reasoning, and optionally provide feedback before continuing.
-- **Self-correcting critic loop** — The Critic agent scores model results against your goal. If unsatisfied, it routes back to the appropriate agent (up to 3 iterations) with specific, actionable fixes.
-- **Secure sandboxed execution** — All generated Python code runs inside isolated E2B cloud sandboxes; nothing executes on your machine.
-- **Interactive Streamlit UI** — Live pipeline progress, annotated step explanations, model visualizations, cleaned dataset download, and a built-in chat interface for asking questions about the pipeline.
-- **LLM-powered reasoning** — Agents explain their decisions in plain English: why a column was dropped, why a model was chosen, what the critic found.
+- **Multi-agent pipeline** - Profiler, Cleaner, Feature Engineer, Modeler, and Critic agents work in sequence, each with a focused responsibility.
+- **Human-in-the-loop checkpoints** - The pipeline pauses before each major step so you can review agent decisions, read the reasoning, and optionally provide feedback before continuing.
+- **Self-correcting critic loop** - The Critic agent scores model results against your goal. If unsatisfied, it routes back to the appropriate agent (up to 3 iterations) with specific, actionable fixes.
+- **Secure sandboxed execution** - All generated Python code runs inside isolated E2B cloud sandboxes; nothing executes on your machine.
+- **Interactive Streamlit UI** - Live pipeline progress, annotated step explanations, model visualizations, cleaned dataset download, and a built-in chat interface for asking questions about the pipeline.
+- **LLM-powered reasoning** - Agents explain their decisions in plain English: why a column was dropped, why a model was chosen, what the critic found.
 
 ---
 
@@ -58,7 +58,7 @@ Profiler → Cleaner → Feature Engineer → Modeler → Critic
 ### Installation
 
 ```bash
-git clone https://github.com/saicharanrajoju/multi-agent-ML-assistant.git
+git clone https://github.com/gaddipatipraneeth/multi-agent-ML-assistant.git
 cd multi-agent-ML-assistant
 pip install -r requirements.txt
 ```
